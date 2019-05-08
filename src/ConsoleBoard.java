@@ -33,16 +33,14 @@ public class ConsoleBoard {
 	}
 
 	public void run() {
-		RobotThread rt = new RobotThread();
-		rt.start();
 		
 		sm.printScreen();
 
 		while (true) {
-			pw.printf("Welcome to the drawboard !\n1.draw\n2.erase\n3.center\n4.exit : ");
+			pw.printf("Welcome to the drawing board !\n1.draw\n2.erase\n3.center\n4.example\n5.exit : ");
 			try {
 				in = br.readLine();
-				if (in.equals("4"))
+				if (in.equals("5"))
 					break;
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -58,12 +56,14 @@ public class ConsoleBoard {
 			case "3":
 				center();
 				break;
+			case "4":
+				example();
+				break;
 			default:
 				pw.printf("Wrong entry number : %s\n", in);
 				break;
 			}
 		}
-		rt.interrupt();
 	}
 
 	public void draw() {
@@ -101,7 +101,7 @@ public class ConsoleBoard {
 					throw new Exception();
 				sm.addFig(new Rectangle(w, h, new Point(x, y)));
 			} catch (Exception e) {
-				pw.println("Out of draw board ,nothing drawn !");
+				pw.println("Out of draw board, nothing drawn ! ");
 			}
 		} else {
 			int ax, ay, bx, by, cx, cy;
@@ -131,7 +131,7 @@ public class ConsoleBoard {
 				sm.addFig(new Triangle(new Point(ax, ay), new Point(bx, by),
 						new Point(cx, cy)));
 			} catch (Exception e) {
-				pw.println("Out of draw board ,nothing drawn !");
+				pw.println("Out of draw board, nothing drawn ! ");
 			}
 		}
 		sm.printScreen();
@@ -188,7 +188,11 @@ public class ConsoleBoard {
 		}
 	}
 
-	
+	public void example() {
+		RobotThread rt = new RobotThread();
+		pw.println("Auto Draw Example Start");
+		rt.start();
+	}
 }
 
 class RobotThread extends Thread{
@@ -255,10 +259,13 @@ class RobotThread extends Thread{
 			keyPress(1);
 			if(stop)return;rb.delay(5000);
 
-			keyPress(4);
+			keyPress(5);
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
+		
+		interrupt();
+		System.out.println("Auto Draw Exampe End");
 	}
 
 	public void keyPress(int n) {
