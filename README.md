@@ -1,7 +1,7 @@
 Console Drawing Board
 ============
-This project is built in [Eslipse](https://www.eclipse.org/)
-The process is below and [here](https://youtu.be/CJoeA0b90B8)
+This project is built in [Eclipse](https://www.eclipse.org/)
+The process of importing this project into [Eclipse](https://www.eclipse.org/) is below and [here](https://youtu.be/CJoeA0b90B8)
 1. Open Eclipse
 2. File -> New -> Java Project -> Enter project name as ConsoleDrawingBoard
 3. Uncheck the checkbox of use default location -> select the folder of the cloned repository -> Finish
