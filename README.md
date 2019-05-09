@@ -38,18 +38,18 @@ The process of importing this project into [Eclipse](https://www.eclipse.org/) i
 6. Select ConsoleBoard.java and right click -> Run as 1.Java Application
 7. Enter 4 to perform the example usage of this drawing board  
 It will launch a thread to trigger keyboard events to 
-  1. create a rectangle
-  2. create a triangle
-  3. erase a triangle
-  4. create a triangle
-  5. create a rectangle
-  6. center a rectangle
-  7. center a triangle
-  8. center a rectangle
-  9. delete a rectangle
-  10. delete a triangle
-  11. delete a rectangle
-  12. exit the console
+    1. create a rectangle
+    2. create a triangle
+    3. erase a triangle
+    4. create a triangle
+    5. create a rectangle
+    6. center a rectangle
+    7. center a triangle
+    8. center a rectangle
+    9. delete a rectangle
+    10. delete a triangle
+    11. delete a rectangle
+    12. exit the console
 
 [![](http://img.youtube.com/vi/CJoeA0b90B8/0.jpg)](http://www.youtube.com/watch?v=CJoeA0b90B8 "Youtube Video")
 
