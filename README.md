@@ -1,9 +1,11 @@
 Console Drawing Board
 ============
-Console Drawing Board is a Java program that provides a console interface and draws rectangles and triangles in a 50 * 50 grid.
+Console Drawing Board is a Java program that provides a console interface and draws figures:
 - Drawing rectangles and triangles in a 50 * 50 grid
 - Erase any drawn figure
 - Center any drawn figure
+
+You can add more figures and functions by modifying the code.
 
 - [How to Use](#how-to-use)
 - [How to Run](#how-to-run)
@@ -11,19 +13,19 @@ Console Drawing Board is a Java program that provides a console interface and dr
 
 ### How to Use
 
-- At the start of the program, you can either enter 1 to draw a rectangle or a triangle or perform a sequence of example including drawing, erasing, and centering.
+- At the start of the program, you can either enter 1 to draw a rectangle or a triangle or perform a sequence of example including drawing, erasing, and centering.  
 ![Start of the program](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/initialize.PNG)
-- After entering 1 to draw, you can draw a rectangle (enter 1) and specify the weight, height, and the center of this rectangle.
+- After entering 1 to draw, you can draw a rectangle (enter 1) and specify the weight, height, and the center of this rectangle.  
 ![Draw a rectangle](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/rectangle.PNG)
-- After entering 1 to draw, you can draw a triangle (enter 2) and specify the locations of three vertices.
-![Draw a triangle (input)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/triangle-1.PNG)
+- After entering 1 to draw, you can draw a triangle (enter 2) and specify the locations of three vertices.  
+![Draw a triangle (input)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/triangle-1.PNG)  
 ![Draw a triangle (result)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/triangle-2.PNG)
-- To erase a triangle, enter 2 and then enter the number of a triange (2 in this case).
+- To erase a triangle, enter 2 and then enter the number of a triange (2 in this case).  
 ![erase a triangle (result)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/delete-1.PNG)
-- To center a rectangle, enter 3 and then enter the number of a rectangle (1 in this case).
-![center a rectangle (result)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/center-1.PNG)
-- Exit the console
-[Exit](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/exit.PNG)
+- To center a rectangle, enter 3 and then enter the number of a rectangle (1 in this case).  
+![Center a rectangle (result)](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/center-1.PNG)
+- To exit the console, enter 5.  
+![Exit](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/exit.PNG)
 
 ### How to Run
 This project is built in [Eclipse](https://www.eclipse.org/)
@@ -34,7 +36,7 @@ The process of importing this project into [Eclipse](https://www.eclipse.org/) i
 4. Open this project
 5. Click on src -> default packge
 6. Select ConsoleBoard.java and right click -> Run as 1.Java Application
-7. Enter 4 to perform the example usage of this drawing board
+7. Enter 4 to perform the example usage of this drawing board  
 It will launch a thread to trigger keyboard events to 
   1. create a rectangle
   2. create a triangle
