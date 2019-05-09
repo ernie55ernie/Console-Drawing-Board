@@ -8,7 +8,7 @@ public class ScreenManager {
 	public ScreenManager() {
 		pw = new PrintWriter(System.out, true);
 //		db = new char[1404];
-		db = new int[2000];
+		db = new int[2500];
 //		for (int i = 0; i < db.length; i++) {
 //			if ((i > 0 && i < 51) || (i > 1352 && i < 1403))
 //				db[i] = '-'+65248;

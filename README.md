@@ -51,6 +51,8 @@ It will launch a thread to trigger keyboard events to
     11. delete a rectangle
     12. exit the console
 
+Here is a [youtube video](http://www.youtube.com/watch?v=CJoeA0b90B8) shown how to open this program in [Eclipse](https://www.eclipse.org/).
+
 [![](http://img.youtube.com/vi/CJoeA0b90B8/0.jpg)](http://www.youtube.com/watch?v=CJoeA0b90B8 "Youtube Video")
 
 ### More about this program
