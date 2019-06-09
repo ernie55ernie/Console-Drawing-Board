@@ -56,4 +56,4 @@ Here is a [youtube video](http://www.youtube.com/watch?v=CJoeA0b90B8) shown how 
 [![](http://img.youtube.com/vi/CJoeA0b90B8/0.jpg)](http://www.youtube.com/watch?v=CJoeA0b90B8 "Youtube Video")
 
 ### More about this program
-Detailed descrptions about this program is in this blog post [Console Drawing Board with Java](https://ernie55ernie.github.io/java/2019/05/09/console-drawing-board-with-java.html).
+Detailed descrptions about this program is in this blog post [Console Drawing Board](https://ernie55ernie.github.io/java/2019/05/09/console-drawing-board.html).
