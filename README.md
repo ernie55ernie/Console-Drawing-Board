@@ -28,7 +28,7 @@ You can add more figures and functions by modifying the code.
 ![Exit](https://raw.githubusercontent.com/ernie55ernie/ConsoleDrawingBoard/master/img/exit.PNG)
 
 ### How to Run
-This project is built in [Eclipse](https://www.eclipse.org/)
+This project is built in [Eclipse](https://www.eclipse.org/).
 The process of importing this project into [Eclipse](https://www.eclipse.org/) is below.
 1. Open Eclipse
 2. File -> New -> Java Project -> Enter project name as ConsoleDrawingBoard
